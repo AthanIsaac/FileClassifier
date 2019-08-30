@@ -1,0 +1,12 @@
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\bin\Debug\ClassifierService.exe.config
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\bin\Debug\ClassifierService.exe
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\bin\Debug\ClassifierService.pdb
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\bin\Debug\EntityFramework.dll
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\bin\Debug\EntityFramework.xml
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\obj\Debug\ClassifierService.csprojResolveAssemblyReference.cache
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\obj\Debug\ClassifierService.csproj.CoreCompileInputs.cache
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\obj\Debug\ClassifierService.csproj.CopyComplete
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\obj\Debug\ClassifierService.exe
+C:\Users\copti\source\repos\ChurchLibraryClassifier\ClassifierService\obj\Debug\ClassifierService.pdb
