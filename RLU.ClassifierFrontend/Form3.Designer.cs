@@ -140,6 +140,7 @@ namespace RLU.ClassifierFrontend
             this.textBox2.Size = new System.Drawing.Size(429, 229);
             this.textBox2.TabIndex = 17;
             this.textBox2.Visible = false;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label2
             // 
