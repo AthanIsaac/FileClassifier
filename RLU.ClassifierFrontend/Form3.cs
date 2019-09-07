@@ -113,9 +113,15 @@ namespace RLU.ClassifierFrontend
             button2.Visible = false;
             button3.Visible = false;
             textBox2.Visible = false;
+            textBox2.Text = "";
             label2.Visible = false;
             tags = classifierProvider.GetTags("");
             selected = null;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -12,6 +12,7 @@ namespace RLU.Classifier.Contracts
     {
         private static readonly string connectionString = "Data Source=DESKTOP-I9QG8E6;Initial Catalog=ChurchLibraryDB;Integrated Security=True";
         private static readonly SqlConnection connection = new SqlConnection(connectionString);
+
         public void AddDisplayNameToTag(string name, int tagId)
         {
         
@@ -40,6 +41,7 @@ namespace RLU.Classifier.Contracts
             var result = cmd.ExecuteScalar();
             connection.Close();
 
+            // result is the fileId if the file was added
             if (result == null) throw new Exception("File not added properly");
 
             int id = (int)result;
@@ -75,6 +77,7 @@ namespace RLU.Classifier.Contracts
             var result = cmd.ExecuteScalar();
             connection.Close();
 
+            // result is the tagId if the tag was added
             if (result == null) throw new Exception("Tag not added properly");
 
             return (int)result;
@@ -91,6 +94,8 @@ namespace RLU.Classifier.Contracts
             connection.Open();
             var result = cmd.ExecuteScalar();
             connection.Close();
+
+            // result is the fileId if it exists or null if not
             if (result == null)
             {
                 return -1;
@@ -168,13 +173,11 @@ namespace RLU.Classifier.Contracts
             };
             cmd.Parameters.AddWithValue("@PrimaryName", SqlDbType.NVarChar).Value = name;
 
-           // var returnParameter = cmd.Parameters.Add("@ReturnVal", SqlDbType.NVarChar);
-           // returnParameter.Direction = ParameterDirection.ReturnValue;
-
             connection.Open();
             var result = cmd.ExecuteScalar();
-           // var result = returnParameter.Value;
             connection.Close();
+
+            // result is the tagId if it exists
             if (result == null)
             {
                 return -1;
